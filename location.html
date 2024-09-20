@@ -29,24 +29,24 @@
                     <div class="divider"></div>
                     <!-- User Action BTN -->
                     <div>
-                        <button class="btn btn-lg">Add Money</button>
-                        <button class="btn btn-lg">Cash Out</button>
+                        <button id="show-add-money-btn" class="btn btn-lg">Add Money</button>
+                        <button id="show-cash-out-btn" class="btn btn-lg">Cash Out</button>
                     </div>
 
                     <div class="divider"></div>
 
                     <!-- add money form -->
-                    <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div id="add-money-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">Amount to Add</span>
+                                    <span class="label-text font-bold">Amount to Add Money</span>
                                 </label>
                                 <input id="add-money-input" type="text" placeholder="Add Amount to withdraw" class="input input-bordered" required />
                             </div>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">Pin Number</span>
+                                    <span class="label-text font-bold">Pin Number</span>
                                 </label>
                                 <input id="pin-number-input" type="password" placeholder="Enter 4 digit pin number" class="input input-bordered" required />
                                 
@@ -59,17 +59,17 @@
                     <!-- add money form end-->
 
                     <!-- cash out  -->
-                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div id="cash-out-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">Amount to Cash Out</span>
+                                    <span class="label-text font-bold">Amount to Cash Out</span>
                        </label>
                                 <input id="cash-out-input" type="text" placeholder="Add Amount to withdraw" class="input input-bordered" required />
                             </div>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">Pin Number</span>
+                                    <span class="label-text font-bold">Pin Number</span>
                                 </label>
                                 <input id="pin-input" type="password" placeholder="Enter 4 digit pin number" class="input input-bordered" required />
                                 
@@ -86,6 +86,7 @@
     </main>
 <script src="./js/location.js"></script>
 <script src="./js/cashout.js"></script>
+<script src="./js/featured.js"></script>
 </body>
 
 </html>

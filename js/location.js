@@ -6,7 +6,7 @@ document.getElementById('add-money-btn').addEventListener('click', function(even
     const addMoneyInput = document.getElementById('add-money-input').value;
    const  pinNumberInput = document.getElementById('pin-number-input').value;
 
-   if(pinNumberInput === '2580'){
+   if(pinNumberInput === '1234'){
   
 
     const currentBalance = document.getElementById('current-balance').innerText;
